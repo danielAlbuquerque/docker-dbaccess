@@ -23,7 +23,7 @@ RUN curl https://packages.microsoft.com/config/rhel/7/prod.repo > /etc/yum.repos
     && rm -rf /var/cache/yum/* \
     && yum clean all
 
-ADD 18-04-16-DBACCESS_LINUX_X64_20171117.TAR.GZ /opt/totvs/dbaccess64
+ADD 18-09-13-DBACCESS_LINUX_X64_20180606.TAR.GZ /opt/totvs/dbaccess64
 
 COPY /build /build
 
